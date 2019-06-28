@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="UE Driver Licence" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/UE Driver Licence" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="./" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/UE Driver Licence" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="./" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="A1_Motorcycle.cpp" />
+		<Unit filename="A1_Motorcycle.h" />
+		<Unit filename="A2_Motorcycle.cpp" />
+		<Unit filename="A2_Motorcycle.h" />
+		<Unit filename="AM_Moped.cpp" />
+		<Unit filename="AM_Moped.h" />
+		<Unit filename="A_Motorcycle.cpp" />
+		<Unit filename="A_Motorcycle.h" />
+		<Unit filename="B1_MotorVehicle.cpp" />
+		<Unit filename="B1_MotorVehicle.h" />
+		<Unit filename="BE_MotorVehicle.cpp" />
+		<Unit filename="BE_MotorVehicle.h" />
+		<Unit filename="B_MotorVehicle.cpp" />
+		<Unit filename="B_MotorVehicle.h" />
+		<Unit filename="C1E_LargeGoodsVehicle.cpp" />
+		<Unit filename="C1E_LargeGoodsVehicle.h" />
+		<Unit filename="C1_LargeGoodsVehicle.cpp" />
+		<Unit filename="C1_LargeGoodsVehicle.h" />
+		<Unit filename="CE_LargeGoodsVehicle.cpp" />
+		<Unit filename="CE_LargeGoodsVehicle.h" />
+		<Unit filename="C_LargeGoodsVehicle.cpp" />
+		<Unit filename="C_LargeGoodsVehicle.h" />
+		<Unit filename="D1E_Bus.cpp" />
+		<Unit filename="D1E_Bus.h" />
+		<Unit filename="D1_Bus.cpp" />
+		<Unit filename="D1_Bus.h" />
+		<Unit filename="DE_Bus.cpp" />
+		<Unit filename="DE_Bus.h" />
+		<Unit filename="D_Bus.cpp" />
+		<Unit filename="D_Bus.h" />
+		<Unit filename="DriveLicense.cpp" />
+		<Unit filename="DriveLicense.h" />
+		<Unit filename="Driver.cpp" />
+		<Unit filename="Driver.h" />
+		<Unit filename="HEADER_FILES_H.h" />
+		<Unit filename="LargeGoodsVehicle.h" />
+		<Unit filename="Menu.cpp" />
+		<Unit filename="Menu.h" />
+		<Unit filename="Reserve.cpp" />
+		<Unit filename="Reserve.h" />
+		<Unit filename="VehiclesCategory.cpp" />
+		<Unit filename="VehiclesCategory.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
